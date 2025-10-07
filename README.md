@@ -11,4 +11,3 @@ A simple Spring Boot application which generates shorten url
         - /api/analytics/top
         - /api/analytics/dailystats/{shortcode}
         - /api/analytics/recentclicks
-

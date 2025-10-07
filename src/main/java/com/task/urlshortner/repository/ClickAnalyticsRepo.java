@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface ClickAnalyticsRepo extends JpaRepository<ClickAnalytics,String> {
+public interface ClickAnalyticsRepo extends JpaRepository<ClickAnalytics,Long> {
     List<ClickAnalytics> findByShortCode(String shortCode);
 }
